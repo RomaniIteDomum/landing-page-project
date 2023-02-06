@@ -1,63 +1,59 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bitcoin</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
 
-    <header class="header"> <img width="50px" height="50px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/1200px-Bitcoin.svg.png" alt="Bitcoin logo">
-        <div class="link-wrapper">
-        <a href="#">About</a>
-        <a href="#">Shop</a>
-        <a href="#">Contact</a>
-        </div> 
-        
-    </header>
-    <div class="section-1">
-        <div class="subsection-1">
-            <h1 class="h1">Bitcoin</h1>
-            <p>Bitcoin (BTC) is a cryptocurrency, a virtual currency designed to act as money and a form of payment outside the control of any one person, group, or entity, thus removing the need for third-party involvement in financial transactions. It is rewarded to blockchain miners for the work done to verify transactions and can be purchased on several exchanges.</p>
-            <p>You want to learn more about Bitcoin?</p>
-            <div class="sign-up-button-container">
-                <a href="#">Sign up</a>
-            </div>
-            
-        </div>
-        <img src="https://plus.unsplash.com/premium_photo-1663931932637-e30332303b71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Bitcoin">
-        
-    </div>
-    <div class="section-2">Bitcoin has the capability to revolutionize the world</div>
-    <div class="section-3">
-        <div class="illustration">
-            <img src="data:image/png;base64,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" alt="Secure illustration">
-            <p>A strong and secure network for over 10+ years.</p>
-        </div>
-        <div class="illustration"> <img src="https://img.freepik.com/free-vector/rocket_53876-25492.jpg?w=360" alt="Fast illustration">
-            <p>Fast and reliable.</p>
-        </div>
-        <div class="illustration"> <img src="https://www.pngall.com/wp-content/uploads/12/Illustration-PNG-Cutout.png" alt="Transparent illustration">
-            <p>Transparent for everyone.</p>
-        </div>
-    </div>
-    <div class="section-4"><div class="subsection-4i"><i>“We have elected to put our money and faith in a mathematical framework that is free of politics and human error.”</i></div>
-        <div class="subsection-4"><p>-Tyler Winklevoss</p></div>
-    </div>
+body {
+    min-width: 1000px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
 
-    <div class="section-5">
-        <div class="subsection-5">
-            <div class="call-to-action">
-                <h2>Buy Bitcoin now!</h2>
-                <p>Or do you want to miss out the next bull run?</p>
-            </div>
-            <div class="subscribe-btn"> <a href="#">Buy</a></div>
-        </div>
-    </div>
+.header {
+    padding: 25px;
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+}
 
-    <div class="footer">Copyright © The Odin Project 2023</div>
+.link-wrapper a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
     
-</body>
-</html>
+}
+
+.link-wrapper {
+display: flex;
+align-items: center;
+gap: 10px;
+    
+}
+
+.section-1 {
+    padding-left: 25px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.section-1 img {
+    width: 500px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.subsection-1{
+    display: flex;
+    flex-direction: column;
+    min-width: 550px;
+    max-width: 650px;
+
+}
+
+
+.subsection-1 .h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+}
+
+.subsection-1 p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
