@@ -63,7 +63,7 @@ gap: 10px;
     font-size: 18px;
 }
 
-.sign-up-button-container {
+.sign-up-button-container, .subscribe-btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,13 +75,13 @@ gap: 10px;
     
 }
 
-.sign-up-button-container a {
+.sign-up-button-container a, .subscribe-btn a {
     color: #F9FAF8;
     text-decoration: none;
     }
 
     .section-2 {
-        padding: 100px 100px 50px 100px;
+        padding: 50px 100px 50px 100px;
         font-size: 36px;
         font-weight: bold;
         color:#1F2937;
@@ -93,7 +93,7 @@ gap: 10px;
     .section-3 {
         display: flex;
         justify-content: center;
-        gap: 50px;
+        gap: 150px;
     }
 
     .illustration img , .illustration p {
@@ -130,5 +130,58 @@ gap: 10px;
 
     .subsection-4p p {
         font-size: 20px;
+    }
+
+    .section-5 {
+        padding: 100px 200px 100px 200px;
+    }
+
+    .subsection-5 {
+        
+        align-items: center;
+        background-color: #3882F6;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 10px;
+        padding: 50px 150px 50px 150px
+
+    }
+
+    .call-to-action {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .call-to-action h2 {
+        color: #F9FAF8;
+        margin: 0; 
+    }
+
+    .call-to-action p {
+        margin: 0;
+        color: #F9FAF8;  
+    }
+
+    .subscribe-btn a {
+        font-size: 20px;
+    }
+
+    .subscribe-btn {
+        min-width: 75px;
+        max-height: 20px;
+        border-style: solid;
+        border-color: #F9FAF8;
+    }
+
+    .footer {
+        background-color: #1F2937;
+        font-size: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        color: #E5E7EB;
     }
 
